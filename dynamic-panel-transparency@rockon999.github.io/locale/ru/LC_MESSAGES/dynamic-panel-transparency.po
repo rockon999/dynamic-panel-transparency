@@ -4,13 +4,14 @@
 #
 # Evan Welsh <contact@evanwelsh.com>, 2017.
 # Alexey Varfolomeev <varlesh@gmail.com>, 2016.
+# vantu5z <vantu5z@mail.ru>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: GNOME Shell Extension Dynamic Panel Transparency\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-29 15:41-0400\n"
-"PO-Revision-Date: 2016-03-07 12:21+0300\n"
-"Last-Translator: Alexey Varfolomeev <varlesh@gmail.com>\n"
+"PO-Revision-Date: 2020-01-12 16:06+0300\n"
+"Last-Translator: vantu5z <vantu5z@mail.ru>\n"
 "Language-Team: Evan Welsh <contact@evanwelsh.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -26,23 +27,23 @@ msgstr "по-умолчанию"
 
 #: prefs.js/preferences/main.js:499 prefs.js/ui/prefs.ui:1328
 msgid "App Tweaks"
-msgstr ""
+msgstr "Расширенные настройки"
 
 #: prefs.js/preferences/main.js:734
 msgid "Add a Custom WM_CLASS"
-msgstr ""
+msgstr "Добавить пользовательский WM_CLASS"
 
 #: prefs.js/ui/prefs.ui:11
 msgid "Classy transparency for your panel."
-msgstr ""
+msgstr "Настройка прозрачности панели."
 
 #: prefs.js/ui/prefs.ui:13
 msgid "Website"
-msgstr ""
+msgstr "Веб-сайт"
 
 #: prefs.js/ui/prefs.ui:107
 msgid "Shell Restart Required."
-msgstr ""
+msgstr "Необходим перезапуск Shell"
 
 #. Meant to ask the user if they would like to restart right now or later in a yes/no format.
 #: prefs.js/ui/prefs.ui:108
@@ -50,6 +51,8 @@ msgid ""
 "A shell restart is required to view some of your changes. Do you want to "
 "restart now?"
 msgstr ""
+"Необходимо перезапустить Shell для применения изменений. Хотите перезапустить"
+" сейчас?"
 
 #. How long the transition will take.
 #: prefs.js/ui/prefs.ui:188
@@ -63,12 +66,12 @@ msgstr "Переопределение 'gtk-enable-animations'."
 #. Whether the panel transitions should happen with the overview transitions or after.
 #: prefs.js/ui/prefs.ui:231
 msgid "Transition with the overview"
-msgstr ""
+msgstr "Переход в режиме Обзор"
 
 #. Whether the panel should transition when a window touches it or only when a window is actually maximized.
 #: prefs.js/ui/prefs.ui:259
 msgid "Transition when windows touch the panel"
-msgstr ""
+msgstr "Переход при косании панели окном"
 
 #: prefs.js/ui/prefs.ui:276
 msgid "Transitions"
@@ -77,25 +80,25 @@ msgstr "Скорость перехода"
 #. Allows the user to set their own text color.
 #: prefs.js/ui/prefs.ui:333
 msgid "Enable custom text coloring"
-msgstr ""
+msgstr "Настроить цвет текста"
 
 #. The main color to be used.
 #: prefs.js/ui/prefs.ui:360 prefs.js/ui/prefs.ui:375
 msgid "Primary Color"
-msgstr "Цвет панели"
+msgstr "Основной цвет"
 
 #. Another color for special functions.
 #: prefs.js/ui/prefs.ui:389 prefs.js/ui/prefs.ui:403
 msgid "Secondary Color"
-msgstr ""
+msgstr "Дополнительный цвет"
 
 #: prefs.js/ui/prefs.ui:423
 msgid "Use when a window is maximized"
-msgstr ""
+msgstr "Использовать при развёрнутом окне"
 
 #: prefs.js/ui/prefs.ui:446
 msgid "Use when the overview is visible"
-msgstr ""
+msgstr "Использовать в режиме Обзор"
 
 #: prefs.js/ui/prefs.ui:514
 msgid "Enable text shadowing"
@@ -104,42 +107,42 @@ msgstr "Добавить тень для текста"
 #: prefs.js/ui/prefs.ui:554 prefs.js/ui/prefs.ui:615 prefs.js/ui/prefs.ui:753
 #: prefs.js/ui/prefs.ui:814
 msgid "Shadow Color"
-msgstr "Цвет панели"
+msgstr "Цвет тени"
 
 #: prefs.js/ui/prefs.ui:628 prefs.js/ui/prefs.ui:827
 msgid "Radius"
-msgstr ""
+msgstr "Радиус"
 
 #: prefs.js/ui/prefs.ui:641 prefs.js/ui/prefs.ui:840
 msgid "Horizontal Offset"
-msgstr ""
+msgstr "По горизонтали"
 
 #: prefs.js/ui/prefs.ui:654 prefs.js/ui/prefs.ui:853
 msgid "Vertical Offset"
-msgstr ""
+msgstr "По вертикали"
 
 #: prefs.js/ui/prefs.ui:713
 msgid "Enable icon shadowing"
-msgstr ""
+msgstr "Добавить тень для значков"
 
 #: prefs.js/ui/prefs.ui:899
 msgid "Foreground"
-msgstr ""
+msgstr "Текст и тени"
 
 #. Opacity of the panel when no window is maximized.
 #: prefs.js/ui/prefs.ui:961
 msgid "Unmaximized Opacity"
-msgstr "Максимум прозрачности"
+msgstr "Минимальная прозрачность"
 
 #. Opacity of the panel when a window is maximized.
 #: prefs.js/ui/prefs.ui:1008 prefs.js/ui/app-prefs.ui:117
 msgid "Maximized Opacity"
-msgstr "Максимум прозрачности"
+msgstr "Максимальная прозрачность"
 
 #. Allows the user to set their own opacity.
 #: prefs.js/ui/prefs.ui:1030
 msgid "Enable custom opacity"
-msgstr ""
+msgstr "Настроить прозрачность"
 
 #. The panel's background color.
 #: prefs.js/ui/prefs.ui:1097 prefs.js/ui/prefs.ui:1112
@@ -150,16 +153,16 @@ msgstr "Цвет панели"
 #. Allows the user to set their own background color for the panel.
 #: prefs.js/ui/prefs.ui:1133
 msgid "Enable custom panel color"
-msgstr ""
+msgstr "Настроить цвет панели"
 
 #. Removes any extra styling certain themes may have. Fixes theme issues.
 #: prefs.js/ui/prefs.ui:1197
 msgid "Remove excess panel styling"
-msgstr ""
+msgstr "Удалить лишние стили"
 
 #: prefs.js/ui/prefs.ui:1210
 msgid "(Fixes theme incompatibilities.)"
-msgstr ""
+msgstr "(Исправляет несовместимость с темой)"
 
 #. Hides the panel corners.
 #: prefs.js/ui/prefs.ui:1238
@@ -168,16 +171,16 @@ msgstr "Скрыть углы"
 
 #: prefs.js/ui/prefs.ui:1266
 msgid "Background"
-msgstr ""
+msgstr "Фон"
 
 #: prefs.js/ui/prefs.ui:1368
 msgid "About"
-msgstr ""
+msgstr "О приложении"
 
 #. Adds a 'custom' app tweak. Only visible on the App Tweaks page.
 #: prefs.js/ui/prefs.ui:1396
 msgid "Advanced..."
-msgstr ""
+msgstr "Дополнительно..."
 
 #: prefs.js/ui/prefs.ui:1432
 msgid ""
@@ -186,10 +189,14 @@ msgid ""
 "find a window's WM_CLASS with the command 'xprop WM_CLASS'. Enter the second "
 "result from 'xprop WM_CLASS' below without quotation marks."
 msgstr ""
+"WM_CLASS - это код, который определяет окно. Используйте этот параметр, если "
+"окно, которое необходимо настроить не является частью приложения. Получить "
+"WM_CLASS для окна можно с помощью команды 'xprop WM_CLASS'. Введите второй "
+"результат вывода 'xprop WM_CLASS' ниже без кавычек."
 
 #: prefs.js/ui/prefs.ui:1481
 msgid "WM_CLASS cannot be blank."
-msgstr ""
+msgstr "WM_CLASS не может быть пустым"
 
 #: prefs.js/ui/app-prefs.ui:51
 msgid "Enable background app tweaks"
