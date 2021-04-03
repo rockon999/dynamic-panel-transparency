@@ -50,17 +50,17 @@ msgstr "切换速度"
 
 #: prefs.ui:214 prefs.ui:242
 msgid "Overrides 'gtk-enable-animations'."
-msgstr "改写 'gtk-enable-animations'。"
+msgstr "覆写 'gtk-enable-animations'。"
 
 #. Whether the panel transitions should happen with the overview transitions or after.
 #: prefs.ui:227
 msgid "Transition with the overview"
-msgstr ""
+msgstr "打开概览时切换"
 
 #. Whether the panel should transition when a window touches it or only when a window is actually maximized.
 #: prefs.ui:255
 msgid "Transition when windows touch the panel"
-msgstr ""
+msgstr "窗口触及 panel 时切换"
 
 #: prefs.ui:272
 msgid "Transitions"
