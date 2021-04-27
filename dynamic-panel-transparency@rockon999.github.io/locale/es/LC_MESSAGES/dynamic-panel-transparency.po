@@ -4,18 +4,20 @@
 #
 # Evan Welsh <contact@evanwelsh.com>, 2017.
 # Alonso Lara <alonso.lara.plana@gmail.com>, 2017.
+# Óscar Fernández <oscfdezdz@tuta.io>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-03 11:20-0700\n"
-"PO-Revision-Date: 2017-03-04 13:48+0100\n"
-"Last-Translator: Alonso Lara <alonso.lara.plana@gmail.com>\n"
+"POT-Creation-Date: 2017-09-29 15:41-0400\n"
+"PO-Revision-Date: 2021-04-27 12:48+0200\n"
+"Last-Translator: Óscar Fernández <oscfdezdz@tuta.io>\n"
 "Language-Team: Evan Welsh <contact@evanwelsh.com>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: prefs.js:89
 msgid "default"
@@ -54,12 +56,12 @@ msgstr "Sobreescribe 'gtk-enable-animations'."
 #. Whether the panel transitions should happen with the overview transitions or after.
 #: prefs.ui:171
 msgid "Transition with the overview"
-msgstr ""
+msgstr "Transición con la vista general"
 
 #. Whether the panel should transition when a window touches it or only when a window is actually maximized.
 #: prefs.ui:194
 msgid "Transition when windows touch the panel"
-msgstr ""
+msgstr "Transición cuando las ventanas tocan el panel"
 
 #: prefs.ui:210
 msgid "Transitions"
@@ -163,71 +165,30 @@ msgstr "Fondo"
 msgid "About"
 msgstr "Acerca de"
 
-#~ msgid "App Tweaks"
-#~ msgstr "Ajustes"
+#: prefs.js/ui/prefs.ui:1432
+msgid ""
+"A WM_CLASS is a code that identifies a window. Use this setting if the "
+"window you want custom settings for is not part of an application. You can "
+"find a window's WM_CLASS with the command 'xprop WM_CLASS'. Enter the second "
+"result from 'xprop WM_CLASS' below without quotation marks."
+msgstr ""
+"Un WM_CLASS es un código que identifica una ventana. Use este ajuste si la "
+"ventana que desea personalizar no es parte de una aplicación. Puede "
+"localizar el WM_CLASS de una ventana mediante el comando 'xprop WM_CLASS'. "
+"Introduzca el segundo resultado de 'xprop WM_CLASS' sin comillas."
 
-#~ msgid "Add a Custom WM_CLASS"
-#~ msgstr "Añadir un WM_CLASS personalizado"
+#: prefs.js/ui/prefs.ui:1481
+msgid "WM_CLASS cannot be blank."
+msgstr "WM_CLASS no puede estar en blanco."
 
-#~ msgid "Advanced..."
-#~ msgstr "Avanzado..."
+#: prefs.js/ui/app-prefs.ui:51
+msgid "Enable background app tweaks"
+msgstr "Activar ajustes de la aplicación de fondo"
 
-#~ msgid ""
-#~ "A WM_CLASS is a code that identifies a window. Use this setting if the "
-#~ "window you want custom settings for is not part of an application. You "
-#~ "can find a window's WM_CLASS with the command 'xprop WM_CLASS'. Enter the "
-#~ "second result from 'xprop WM_CLASS' below without quotation marks."
-#~ msgstr ""
-#~ "Un WM_CLASS es un código que identifica una ventana. Use este ajuste si "
-#~ "la ventana que desea personalizar no es parte de una aplicación. Puede "
-#~ "localizar el WM_CLASS de una ventana mediante el comando 'xprop "
-#~ "WM_CLASS'. Introduzca el segundo resultado de 'xprop WM_CLASS' sin "
-#~ "comillas."
+#: prefs.js/ui/app-prefs.ui:130
+msgid "Theme Source"
+msgstr "Fuente del tema"
 
-#~ msgid "WM_CLASS cannot be blank."
-#~ msgstr "WM_CLASS no puede estar en blanco."
-
-#~ msgid "Enable background app tweaks"
-#~ msgstr "Activar ajustes de la aplicación de fondo"
-
-#~ msgid "Theme Source"
-#~ msgstr "Fuente del tema"
-
-#~ msgid "Always trigger the panel."
-#~ msgstr "Desencadenar siempre el panel"
-
-#~ msgid "Force animation"
-#~ msgstr "Forzar animación"
-
-#~ msgid "Transition Style"
-#~ msgstr "Estilo de transición"
-
-#~ msgid "Linear (default)"
-#~ msgstr "Lineal (por defecto)"
-
-#~ msgid "Sine"
-#~ msgstr "Senoidal"
-
-#~ msgid "Quadratic"
-#~ msgstr "Cuadrática"
-
-#~ msgid "Cubic"
-#~ msgstr "Cúbica"
-
-#~ msgid "Quartic"
-#~ msgstr "Cuártica"
-
-#~ msgid "Quintic"
-#~ msgstr "Quíntica"
-
-#~ msgid "Exponential"
-#~ msgstr "Exponencial"
-
-#~ msgid "Circle"
-#~ msgstr "Circular"
-
-#~ msgid "Elastic"
-#~ msgstr "Elástica"
-
-#~ msgid "Bounce"
-#~ msgstr "Rebotar"
+#: prefs.js/ui/app-prefs.ui:190
+msgid "Always trigger the panel."
+msgstr "Desplegar siempre el panel."
