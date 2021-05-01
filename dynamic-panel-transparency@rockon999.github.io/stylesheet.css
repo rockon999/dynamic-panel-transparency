@@ -20,3 +20,6 @@
   background-image: none;
 }
 
+/* Prevents overlapping of corners + top bar when using transparency */
+.dpt-panel-hide-corners {
+  -panel-corner-border-width: 0px;}
